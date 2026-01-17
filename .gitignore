@@ -1,0 +1,18 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/Hypercar Service Center/*
+!/Hypercar Service Center/task/
+/Hypercar Service Center/task/*
+!/Hypercar Service Center/task/hypercar
+!/Hypercar Service Center/task/test
+!/Hypercar Service Center/task/tests.py

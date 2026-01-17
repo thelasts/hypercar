@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Service Menu</title>
+</head>
+<body>
+    <h2>Hypercar Service Menu</h2>
+    <ul>
+    {% for service in services %}
+        <li>
+            <a href="/get_ticket/{{ service.code }}">{{ service.label }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
